@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Avatar from "../components/Avatar";
+import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import { fadeIn } from "../variants";
 
@@ -51,7 +52,7 @@ const Home = () => {
         {/* bg img */}
         <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge"></div>
         {/* particles */}
-        <div>Particles</div>
+        <ParticlesContainer />
         {/* avatar img */}
         <motion.div
           variants={fadeIn("up", 0.5)}
