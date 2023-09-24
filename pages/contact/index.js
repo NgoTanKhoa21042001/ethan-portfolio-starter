@@ -6,7 +6,7 @@ const Contact = () => {
         {/* text and form*/}
         <div className="flex flex-col w-full max-w-[700px]">
           <h2 className="h2 text-center mb-12">
-            Let's <span>connect.</span>
+            Lets <span>connect.</span>
           </h2>
           {/* form */}
           <form className="flex-1 flex flex-col gap-6 w-full mx-auto">
@@ -18,7 +18,7 @@ const Contact = () => {
             <textarea placeholder="message" className="textarea"></textarea>
 
             <button className="btn rounded-full border border-white/50 max-w-[170px] px-8 flex items-center justify-center">
-              <span>Let's talk</span>
+              <span>Lets talk</span>
               <BsArrowRight />
             </button>
           </form>
