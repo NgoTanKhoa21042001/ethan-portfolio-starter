@@ -47,11 +47,11 @@ const ServiceSlider = () => {
     <Swiper
       breakpoints={{
         320: {
-          slidesPerview: 1,
+          slidesPerView: 1,
           spaceBetween: 15,
         },
-        740: {
-          slidesPerview: 4,
+        640: {
+          slidesPerView: 3,
           spaceBetween: 15,
         },
       }}
